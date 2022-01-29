@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react';
-// import {SiHotjar} from 'react-icons/si'
 import {GrNext, GrPrevious} from 'react-icons/gr'
 import axios from 'axios'
 
