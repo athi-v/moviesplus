@@ -28,7 +28,7 @@ const Popular = () => {
 <h1>Popular Movies</h1>
 
 </div>
- {/* {data.results !== undefined &&
+ {data.results !== undefined &&
 <div className='contenttwo'>
 
 <div id="sacarousel" className="carousel slide" data-ride="carousel">
@@ -67,7 +67,7 @@ const Popular = () => {
 
 
 </div>
- } */}
+ }
 </div>
 </div>
 </div>

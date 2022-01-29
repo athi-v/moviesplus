@@ -25,7 +25,7 @@ const Upcoming = () => {
 <h1>New Movies</h1>
 
 </div>
- {/* {data.results !== undefined &&
+ {data.results !== undefined &&
 <div className='contenttwo'>
 <div id="scarousel" className="carousel slide" data-ride="carousel">
   <div className="carousel-inner">
@@ -60,7 +60,7 @@ const Upcoming = () => {
     </button>
 </div>
 </div>
- } */}
+ }
 </div>
 </div>
 </div>
