@@ -3,7 +3,7 @@ import {GrNext, GrPrevious} from 'react-icons/gr'
 import axios from 'axios'
 
 
-import './Upcoming.css'
+import './Popular.css'
 const Upcoming = () => {
   const [data, setData] = useState([])
   const url = 'https://api.themoviedb.org/3/movie/upcoming?api_key=fe0e635bd60cf4e677e3bbb4451689f0&language=en-US&page=1'
@@ -25,7 +25,7 @@ const Upcoming = () => {
 <h1>New Movies</h1>
 
 </div>
- {data.results !== undefined &&
+ {/* {data.results !== undefined &&
 <div className='contenttwo'>
 <div id="scarousel" className="carousel slide" data-ride="carousel">
   <div className="carousel-inner">
@@ -60,7 +60,7 @@ const Upcoming = () => {
     </button>
 </div>
 </div>
- }
+ } */}
 </div>
 </div>
 </div>
