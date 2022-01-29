@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react'
+import Navbar from './components/Navbar';
+import Hero from './components/Hero'
+import Popular from './components/Popular';
+import Upcoming from './components/Upcoming';
+import Featured from './components/Featured';
+import Kids from './components/kids';
+import Faq from './components/Faq';
+import Footer from './components/Footer'
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Changes!!!!!!!!!
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+  <Navbar />
+  <Hero />
+  <Popular />
+<Featured />
+  <Upcoming />
+  <Kids />
+  <Faq />
+  <Footer />
+    </>
   );
 }
 

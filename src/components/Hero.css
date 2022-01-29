@@ -1,0 +1,67 @@
+.hero {
+        font-family: 'Outfit';
+text-align: center;
+}
+
+.hero .container-fluid {
+    padding: 15% 6%;
+}
+.hero .heroimg {
+    width: 100%;
+}
+.hero h1 {
+    font-weight: 800;
+}
+
+.hero .btn {
+    background: #8c00ff;
+    border:#8c00ff;
+    border-radius: 30px;
+    width: 20%;
+}
+.hero input {
+
+    border:1px solid lightgray;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    width: 37%;
+text-align: center;
+}
+
+.hero .search
+{
+    
+    border:1px solid lightgray;
+    border-radius: 30px;
+    width: 65%;
+text-align: center;
+}
+
+@media screen and (max-width:640px)
+{
+
+    .hero {
+
+        text-align: center;
+       
+    }
+    .hero .btn {
+   
+        width: 100%;
+    }
+    
+    .hero input {
+
+        width: 100%;
+
+    }
+.hero .search
+{ 
+    margin-top: 10px;
+    width: 100%;
+
+}
+
+      
+}

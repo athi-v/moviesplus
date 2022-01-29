@@ -1,0 +1,47 @@
+.popular { 
+    clip-path: circle(115.5% at 91% 100%);
+               font-family: 'Outfit';
+text-align: center;
+}
+
+.popular .container-fluid {
+    padding: 15% 6%;
+}
+.popular h1 {
+    font-weight: 800;
+}
+
+.popular .carousel-inner {
+    padding-left: 28%;
+}
+.popular .card {
+    width:400px;
+   align-content: center;
+   
+   
+}
+.popular .card .card-img-top {
+    height: 50vh;
+}
+
+
+@media screen and (max-width:640px)
+{
+    .popular .card {
+        width:210px;
+        text-align: center;
+    }
+
+.popular .card .card-img-top {
+    height: 25vh;
+}
+
+    .popular .card-title
+    {
+        font-size: 1.2rem;
+    }
+    .popular .carousel-inner {
+        padding-left: 14.5%;
+    }
+    
+}

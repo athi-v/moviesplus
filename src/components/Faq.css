@@ -1,0 +1,65 @@
+.faq {
+    font-family: 'Outfit';
+text-align: center;
+}
+
+.faq .container-fluid {
+    padding: 15% 6%;
+}
+
+.faq h1 {
+    font-weight: 800;
+}
+
+.faq .btn {
+    background: #8c00ff;
+    border:#8c00ff;
+    border-radius: 30px;
+    width: 20%;
+}
+.faq input {
+
+    border:1px solid lightgray;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    width: 37%;
+text-align: center;
+}
+
+.faq .search
+{
+    
+    border:1px solid lightgray;
+    border-radius: 30px;
+    width: 65%;
+text-align: center;
+}
+
+@media screen and (max-width:640px)
+{
+
+    .faq {
+
+        text-align: center;
+       
+    }
+    .faq .btn {
+   
+        width: 100%;
+    }
+    
+    .faq input {
+
+        width: 100%;
+
+    }
+.faq .search
+{ 
+    margin-top: 10px;
+    width: 100%;
+
+}
+
+      
+}

@@ -1,0 +1,37 @@
+header {
+    background-image: #fce7f3;
+        font-family: 'Outfit';
+    color:#000;
+
+}
+header .container-fluid {
+    padding: 1% 6%;
+}
+
+header .navbar-brand {
+    color: #000;
+    font-size: 2rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+header .navbar-brand:hover {
+color: #000;
+}
+
+
+header .nav-link {
+    color: #000;
+    cursor: pointer;
+line-height: 5;
+font-weight: 600;
+margin-left: 100px;
+
+}
+
+
+@media  screen and (max-width:920px) {
+    header .nav-link {
+  margin: auto;
+        text-align: center;
+    } 
+}

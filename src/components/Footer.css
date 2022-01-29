@@ -1,0 +1,56 @@
+.footer {
+    font-family: 'Outfit';
+
+}
+.footer .container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-between;
+    padding: 1rem;
+
+}
+
+.footer h1 {
+    color: #000;
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 5rem;
+}
+.footer span {
+    color: #06b6d4;
+}
+.footer .col {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer .bar {
+    width: 30px;
+    border-bottom: 4px solid #06b6d4;
+    margin: 0.5rem 0;
+}
+
+.footer a {
+    font-size: 1rem;
+    text-decoration: none;
+    color: #000;
+}
+
+.footer .icon {
+    color: #303030;
+    margin-right: 4px;
+}
+.footer h5 {
+    margin-top: 2rem;
+}
+
+@media screen and (max-width: 940px) {
+    .footer .container {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .footer .col-1 {
+        display: none;
+    }
+}
+ 
